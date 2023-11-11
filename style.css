@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ece5f3;
+    color: #22031e;
+  }
+  
+  nav {
+    background-color: #22031e;
+    position: fixed;
+    width: 100%;
+  }
+  
+ 
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: disc;
+  }
+  
+  .course {
+   list-style-type: decimal;
+   display: block;
+    justify-content: baseline;
+  } 
+  
+  .education{
+   list-style-type: circle;
+ }
+
+ .lang {
+  list-style-type: square;
+ }
+
+  .conf {
+    list-style-type: decimal;
+    list-style-type: decimal;
+   display: block;
+   }
+
+  
+   li {
+    margin: 0 15px;
+  }
+  
+  header li {
+    margin: 5;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #dfc1df;
+    height: 50%;
+    width: 100%;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section img {
+      float: left;
+      width: 30px;
+      height: 30px;
+      color: #22031e;
+      margin: auto;
+      background-color: none;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #dfc1df;
+  }
+  
